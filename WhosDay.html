@@ -9,12 +9,14 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="popup" id="popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-            <p>¡Unbailable!</p>
-        </div>
+    <input type="checkbox" id="popup-trigger">
+<div class="popup">
+    <label for="popup-trigger" class="overlay"></label>
+    <div class="popup-content">
+        <label for="popup-trigger" class="close">&times;</label>
+        <p>¡Unbailable!</p>
     </div>
+</div>
     <div class="background">
         <span></span>
         <span></span>
